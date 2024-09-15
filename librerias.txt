@@ -1,0 +1,16 @@
+py -3 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python api.py
+http://127.0.0.1:5000/?word=amor
+
+
+
+Installing collected packages: zipp, wrapt, numpy, MarkupSafe, 
+colorama, Werkzeug, smart-open, scipy, Jinja2, itsdangerous, 
+importlib-metadata, Cython, click, blinker, gensim, Flask
+Successfully installed Cython-0.29.28 Flask-3.0.3 Jinja2-3.1.4 
+MarkupSafe-2.1.5 Werkzeug-3.0.4 blinker-1.8.2 click-8.1.7 
+colorama-0.4.6 gensim-4.2.0 importlib-metadata-8.4.0 
+itsdangerous-2.2.0 numpy-1.24.4 scipy-1.6.0 smart-open-7.0.4 
+wrapt-1.16.0 zipp-3.20.1
